@@ -1,304 +1,385 @@
 <odoo>
-	<data>
+    <data>
 
-		<template id="home">
-			<html>
-				<head>
-				  <meta charset="utf-8" />
-				  <title>vITraining Bootcamp</title>
-				  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <template id="home">
+            <html>
+                <head>
+                    <meta charset="utf-8"/>
+                    <title>vITraining Bootcamp</title>
+                    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-				  <!-- Favicons -->
-				  <!-- <link href="/vit_portofolio/static/TheEvent/img/favicon.png" rel="icon" /> -->
-				  <!-- <link href="/vit_portofolio/static/TheEvent/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+                    <!-- Favicons -->
+                    <!-- <link href="/vit_portofolio/static/TheEvent/img/favicon.png" rel="icon" /> -->
+                    <!-- <link href="/vit_portofolio/static/TheEvent/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
 
-				  <!-- Google Fonts -->
-				  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet" />
+                    <!-- Google Fonts -->
+                    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+                          rel="stylesheet"/>
 
-				  <!-- Bootstrap CSS File -->
-				  <link href="/vit_portofolio/static/TheEvent/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+                    <!-- Bootstrap CSS File -->
+                    <link href="/vit_portofolio/static/TheEvent/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 
-				  <!-- Libraries CSS Files -->
-				  <link href="/vit_portofolio/static/TheEvent/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-				  <link href="/vit_portofolio/static/TheEvent/lib/animate/animate.min.css" rel="stylesheet" />
-				  <link href="/vit_portofolio/static/TheEvent/lib/venobox/venobox.css" rel="stylesheet" />
-				  <link href="/vit_portofolio/static/TheEvent/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+                    <!-- Libraries CSS Files -->
+                    <link href="/vit_portofolio/static/TheEvent/lib/font-awesome/css/font-awesome.min.css"
+                          rel="stylesheet"/>
+                    <link href="/vit_portofolio/static/TheEvent/lib/animate/animate.min.css" rel="stylesheet"/>
+                    <link href="/vit_portofolio/static/TheEvent/lib/venobox/venobox.css" rel="stylesheet"/>
+                    <link href="/vit_portofolio/static/TheEvent/lib/owlcarousel/assets/owl.carousel.min.css"
+                          rel="stylesheet"/>
 
-				  <!-- Main Stylesheet File -->
-				  <link href="/vit_portofolio/static/TheEvent/css/style.css" rel="stylesheet" />
-				</head>
+                    <!-- Main Stylesheet File -->
+                    <link href="/vit_portofolio/static/TheEvent/css/style.css" rel="stylesheet"/>
+                </head>
 
-				<body>
-					<header id="header">
-					  <div class="container">
+                <body>
+                    <header id="header">
+                        <div class="container">
 
-					    <div id="logo" class="pull-left">
-					      <a href="#intro" class="scrollto"><img src="vit_portofolio/static/TheEvent/img/logo.png" alt="" title="" /></a>
-					    </div>
+                            <div id="logo" class="pull-left">
+                                <a href="#intro" class="scrollto">
+                                    <img src="vit_portofolio/static/TheEvent/img/logo.png" alt="" title=""/>
+                                </a>
+                            </div>
 
-					    <nav id="nav-menu-container">
-					      <ul class="nav-menu">
-					        <li class="menu-active"><a href="#intro">Home</a></li>
-					        <li><a href="#about">About</a></li>
-					        <li><a href="#speakers">Attendee</a></li>
-					        <li><a href="#gallery">Gallery</a></li>
-					        <li><a href="#supporters">Network</a></li>
-					        <li><a href="#contact">Contact</a></li>
-					        <li class="buy-tickets"><a target="_blank" href="https://vitraining.com/">Website</a></li>
-					      </ul>
-					    </nav>
-					  </div>
-					</header>
+                            <nav id="nav-menu-container">
+                                <ul class="nav-menu">
+                                    <li class="menu-active">
+                                        <a href="#intro">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#speakers">Attendee</a>
+                                    </li>
+                                    <li>
+                                        <a href="#gallery">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#supporters">Network</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                    <li class="buy-tickets">
+                                        <a target="_blank" href="https://vitraining.com/">Website</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
 
-					<section id="intro">
-					  <div class="intro-container wow fadeIn">
-					    <h1 class="mb-4 pb-0">Vitraining <span>Bootcamp</span></h1>
-					    <a href="https://www.youtube.com/watch?v=Sp8_Z282fjg" class="venobox play-btn mb-4" data-vbtype="video"
-					      data-autoplay="true"></a>
-					    <a href="#about" class="about-btn scrollto">About The Bootcamp</a>
-					  </div>
-					</section>
+                    <section id="intro">
+                        <div class="intro-container wow fadeIn">
+                            <h1 class="mb-4 pb-0">Vitraining
+                                <span>Bootcamp</span>
+                            </h1>
+                            <a href="https://www.youtube.com/watch?v=Sp8_Z282fjg" class="venobox play-btn mb-4"
+                               data-vbtype="video"
+                               data-autoplay="true">
+                            </a>
+                            <a href="#about" class="about-btn scrollto">About The Bootcamp</a>
+                        </div>
+                    </section>
 
-					<main id="main">
-						<section id="about">
-						  <div class="container">
-						    <div class="row">
-						      <div class="col-lg-6">
-						        <h2>About The Bootcamp</h2>
-						        <p>Vitraining Bootcamp adalah program pembelajaran yang berfokus pada bidang IT yang terdiri dari provides training classes, ERP system implementation, blockchain and mobile application development. Kurikulum kami dirancang untuk membangun keahlian yang langsung dapat diaplikasikan pada perkembangan dunia kerja.</p>
-						      </div>
-						    </div>
-						  </div>
-						</section>
+                    <main id="main">
+                        <section id="about">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h2>About The Bootcamp</h2>
+                                        <p>Vitraining Bootcamp adalah program pembelajaran yang berfokus pada bidang IT
+                                            yang terdiri dari provides training classes, ERP system implementation,
+                                            blockchain and mobile application development. Kurikulum kami dirancang
+                                            untuk membangun keahlian yang langsung dapat diaplikasikan pada perkembangan
+                                            dunia kerja.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
-						<section id="speakers" class="wow fadeInUp">
-						  <div class="container">
-						    <div class="section-header">
-						      <h2>Attendee</h2>
-						      <p>Alumni Bootcamp Vitraining</p>
-						    </div>
+                        <section id="speakers" class="wow fadeInUp">
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2>Attendee</h2>
+                                    <p>Alumni Bootcamp Vitraining</p>
+                                </div>
 
-						    <div class="row">
-						      <div class="col-lg-4 col-md-6" t-foreach="employees" t-as="employee">
-						        <div class="speaker">
-						          <img t-attf-src="data:image/*;base64,{{employee.image}}" t-attf-alt="{{employee.name}}" class="img-fluid" />
-						          <div class="details">
-						            <h3><a target="_blank" t-attf-href="portofolio/{{employee.id}}"><span t-field="employee.name"/></a></h3>
-						            <p><span t-field="employee.job_id"/></p>
-						            <div class="social">
-						            	<a style="font-size:20px" target="_blank" t-foreach="employee.social_ids" t-as="social" t-attf-href="{{social.link}}"><i t-attf-class="fa fa-{{social.name}}"></i>&#160;</a>
-						            </div>
-						          </div>
-						        </div>
-						      </div>
-						    </div>
-						  </div>
-						</section>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6" t-foreach="employees" t-as="employee">
+                                        <div class="speaker">
+                                            <img t-attf-src="data:image/*;base64,{{employee.image}}"
+                                                 t-attf-alt="{{employee.name}}" class="img-fluid"/>
+                                            <div class="details">
+                                                <h3>
+                                                    <a target="_blank" t-attf-href="portofolio/{{employee.id}}">
+                                                        <span t-field="employee.name"/>
+                                                    </a>
+                                                </h3>
+                                                <p>
+                                                    <span t-field="employee.job_id"/>
+                                                </p>
+                                                <div class="social">
+                                                    <a style="font-size:20px" target="_blank"
+                                                       t-foreach="employee.social_ids" t-as="social"
+                                                       t-attf-href="{{social.link}}"><i
+                                                            t-attf-class="fa fa-{{social.name}}">
 
-						<section id="gallery" class="section-with-bg wow fadeInUp">
-						  <div class="container">
-						    <div class="section-header">
-						      <h2>Gallery</h2>
-						      <p>Kegiatan Kami Selama Bootcamp</p>
-						    </div>
-						  </div>
+                                                    </i>&#160;
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
-						  <div class="owl-carousel gallery-carousel">
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/1.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/2.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/3.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/4.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/5.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/6.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/7.jpg" /></a>
-						    <a href="javascript:void(0)"><img src="vit_portofolio/static/TheEvent/img/gallery/8.jpg" /></a>
-						  </div>
-						</section>
+                        <section id="gallery" class="section-with-bg wow fadeInUp">
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2>Gallery</h2>
+                                    <p>Kegiatan Kami Selama Bootcamp</p>
+                                </div>
+                            </div>
 
-						<section id="supporters" class="wow fadeInUp">
-						  <div class="container">
-						    <div class="section-header">
-						      <h2>Collaborative Network</h2>
-						    </div>
+                            <div class="owl-carousel gallery-carousel">
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/1.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/2.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/3.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/4.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/5.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/6.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/7.jpg"/>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="vit_portofolio/static/TheEvent/img/gallery/8.jpg"/>
+                                </a>
+                            </div>
+                        </section>
 
-						    <div class="row no-gutters supporters-wrap clearfix">
+                        <section id="supporters" class="wow fadeInUp">
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2>Collaborative Network</h2>
+                                </div>
 
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/1.png" class="img-fluid" />
-						        </div>
-						      </div>
-						      
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/2.png" class="img-fluid" />
-						        </div>
-						      </div>
-						    
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/3.png" class="img-fluid" />
-						        </div>
-						      </div>
-						      
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/4.png" class="img-fluid" />
-						        </div>
-						      </div>
-						      
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/5.png" class="img-fluid" />
-						        </div>
-						      </div>
-						    
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/6.png" class="img-fluid" />
-						        </div>
-						      </div>
-						      
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/7.png" class="img-fluid" />
-						        </div>
-						      </div>
-						      
-						      <div class="col-lg-3 col-md-4 col-xs-6">
-						        <div class="supporter-logo">
-						          <img src="vit_portofolio/static/TheEvent/img/supporters/8.png" class="img-fluid" />
-						        </div>
-						      </div>
+                                <div class="row no-gutters supporters-wrap clearfix">
 
-						    </div>
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/1.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						  </div>
-						</section>
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/2.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						<section id="subscribe">
-						  <div class="container wow fadeInUp">
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/3.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						    <div class="section-header-subscribe my-5">
-							    <div class="row">
-							    	<div class="col">
-							    		<h2>100+</h2>
-							    		<p>Alumni</p>
-							    	</div>
-							    	<div class="col">
-							    		<h2>1300+</h2>
-							    		<p>Hiring Partner</p>
-							    	</div>
-							    	<div class="col">
-							    		<h2>90 Juta</h2>
-							    		<p>Gaji Rata-Rata Alumni</p>
-							    	</div>
-							    </div>
-						    </div>
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/4.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						  </div>
-						</section>
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/5.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						<section id="contact" class="section-with-bg wow fadeInUp">
-						  <div class="container">
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/6.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						    <div class="section-header">
-						      <h2>Contact Us</h2>
-						    </div>
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/7.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						    <div class="row contact-info">
+                                    <div class="col-lg-3 col-md-4 col-xs-6">
+                                        <div class="supporter-logo">
+                                            <img src="vit_portofolio/static/TheEvent/img/supporters/8.png"
+                                                 class="img-fluid"/>
+                                        </div>
+                                    </div>
 
-						      <div class="col-md-4">
-						        <div class="contact-address">
-						          <i class="ion-ios-location-outline"></i>
-						          <h3>Address</h3>
-						          <address>Surapati Core Blok C16 Jalan PHH Mustopa 36 Bandung West Java, Indonesia</address>
-						        </div>
-						      </div>
+                                </div>
 
-						      <div class="col-md-4">
-						        <div class="contact-phone">
-						          <i class="ion-ios-telephone-outline"></i>
-						          <h3>Phone Number</h3>
-						          <p><a href="tel:+622287241394">+62 22 87241394</a></p>
-						        </div>
-						      </div>
+                            </div>
+                        </section>
 
-						      <div class="col-md-4">
-						        <div class="contact-email">
-						          <i class="ion-ios-email-outline"></i>
-						          <h3>Email</h3>
-						          <p><a href="mailto:info@vitraining.com">info@vitraining.com</a></p>
-						        </div>
-						      </div>
+                        <section id="subscribe">
+                            <div class="container wow fadeInUp">
 
-						    </div>
+                                <div class="section-header-subscribe my-5">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h2>100+</h2>
+                                            <p>Alumni</p>
+                                        </div>
+                                        <div class="col">
+                                            <h2>1300+</h2>
+                                            <p>Hiring Partner</p>
+                                        </div>
+                                        <div class="col">
+                                            <h2>90 Juta</h2>
+                                            <p>Gaji Rata-Rata Alumni</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-						    <div class="form">
-						      <div id="sendmessage">Your message has been sent. Thank you!</div>
-						      <div id="errormessage"></div>
-						      <form action="" method="post" role="form" class="contactForm">
-						        <div class="form-row">
-						          <div class="form-group col-md-6">
-						            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-						            <div class="validation"></div>
-						          </div>
-						          <div class="form-group col-md-6">
-						            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-						            <div class="validation"></div>
-						          </div>
-						        </div>
-						        <div class="form-group">
-						          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-						          <div class="validation"></div>
-						        </div>
-						        <div class="form-group">
-						          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-						          <div class="validation"></div>
-						        </div>
-						        <div class="text-center">
-						        	<a href="mailto:info@vitraining.com">
-							        	<button type="submit">Send Message</button>
-						        	</a>
-						        </div>
-						      </form>
-						    </div>
+                            </div>
+                        </section>
 
-						  </div>
-						</section>
+                        <section id="contact" class="section-with-bg wow fadeInUp">
+                            <div class="container">
 
-					</main>
+                                <div class="section-header">
+                                    <h2>Contact Us</h2>
+                                </div>
 
-					<footer id="footer">
-					  <div class="container">
-					    <div class="copyright">
-					      &#169; Copyright. All Rights Reserved
-					    </div>
-					  </div>
-					</footer>
+                                <div class="row contact-info">
 
-					<a href="javascript:void(0)" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+                                    <div class="col-md-4">
+                                        <div class="contact-address">
+                                            <i class="ion-ios-location-outline"></i>
+                                            <h3>Address</h3>
+                                            <address>Surapati Core Blok C16 Jalan PHH Mustopa 36 Bandung West Java,
+                                                Indonesia
+                                            </address>
+                                        </div>
+                                    </div>
 
-					<!-- JavaScript Libraries -->
-					<script src="/vit_portofolio/static/TheEvent/lib/jquery/jquery.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/jquery/jquery-migrate.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/easing/easing.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/superfish/hoverIntent.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/superfish/superfish.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/wow/wow.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/venobox/venobox.min.js"></script>
-					<script src="/vit_portofolio/static/TheEvent/lib/owlcarousel/owl.carousel.min.js"></script>
+                                    <div class="col-md-4">
+                                        <div class="contact-phone">
+                                            <i class="ion-ios-telephone-outline"></i>
+                                            <h3>Phone Number</h3>
+                                            <p>
+                                                <a href="tel:+622287241394">+62 22 87241394</a>
+                                            </p>
+                                        </div>
+                                    </div>
 
-					<!-- Contact Form JavaScript File -->
-					<script src="/vit_portofolio/static/TheEvent/contactform/contactform.js"></script>
+                                    <div class="col-md-4">
+                                        <div class="contact-email">
+                                            <i class="ion-ios-email-outline"></i>
+                                            <h3>Email</h3>
+                                            <p>
+                                                <a href="mailto:info@vitraining.com">info@vitraining.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
 
-					<!-- Template Main Javascript File -->
-					<script src="/vit_portofolio/static/TheEvent/js/main.js"></script>
-				</body>
+                                </div>
 
-			</html>
-		</template>
+                                <div class="form">
+                                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                    <div id="errormessage"></div>
+                                    <form action="" method="post" role="form" class="contactForm">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <input type="text" name="name" class="form-control" id="name"
+                                                       placeholder="Your Name" data-rule="minlen:4"
+                                                       data-msg="Please enter at least 4 chars"/>
+                                                <div class="validation"></div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                       placeholder="Your Email" data-rule="email"
+                                                       data-msg="Please enter a valid email"/>
+                                                <div class="validation"></div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="subject" id="subject"
+                                                   placeholder="Subject" data-rule="minlen:4"
+                                                   data-msg="Please enter at least 8 chars of subject"/>
+                                            <div class="validation"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                                      data-msg="Please write something for us"
+                                                      placeholder="Message"></textarea>
+                                            <div class="validation"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="mailto:info@vitraining.com">
+                                                <button type="submit">Send Message</button>
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
 
-	</data>
+                            </div>
+                        </section>
+
+                    </main>
+
+                    <footer id="footer">
+                        <div class="container">
+                            <div class="copyright">
+                                &#169; Copyright. All Rights Reserved
+                            </div>
+                        </div>
+                    </footer>
+
+                    <a href="javascript:void(0)" class="back-to-top">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+
+                    <!-- JavaScript Libraries -->
+                    <script src="/vit_portofolio/static/TheEvent/lib/jquery/jquery.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/jquery/jquery-migrate.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/easing/easing.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/superfish/hoverIntent.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/superfish/superfish.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/wow/wow.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/venobox/venobox.min.js"></script>
+                    <script src="/vit_portofolio/static/TheEvent/lib/owlcarousel/owl.carousel.min.js"></script>
+
+                    <!-- Contact Form JavaScript File -->
+                    <script src="/vit_portofolio/static/TheEvent/contactform/contactform.js"></script>
+
+                    <!-- Template Main Javascript File -->
+                    <script src="/vit_portofolio/static/TheEvent/js/main.js"></script>
+                </body>
+
+            </html>
+        </template>
+
+    </data>
 </odoo>

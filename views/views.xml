@@ -1,196 +1,196 @@
 <odoo>
-  <data>
+    <data>
 
-    <!-- Tree Skills -->
-    <record id="view_portofolio_skills_tree" model="ir.ui.view">
-        <field name="name">portofolio.skills.tree</field>
-        <field name="model">portofolio.skills</field>
-        <field name="type">tree</field>
-        <field name="priority" eval="8"/>
+        <!-- Tree Skills -->
+        <record id="view_portofolio_skills_tree" model="ir.ui.view">
+            <field name="name">portofolio.skills.tree</field>
+            <field name="model">portofolio.skills</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
 
-        <field name="arch" type="xml">
-            <tree string="Skills">
-                <field name="name" />
-                <field name="score" />
-            </tree>
-        </field>
-    </record>
+            <field name="arch" type="xml">
+                <tree string="Skills">
+                    <field name="name"/>
+                    <field name="score"/>
+                </tree>
+            </field>
+        </record>
 
-    <!-- Form Skills -->
-    <record id="view_portofolio_skills_form" model="ir.ui.view">
-        <field name="name">portofolio.skills.form</field>
-        <field name="model">portofolio.skills</field>
-        <field name="type">form</field>
-        <field name="priority" eval="8"/>
+        <!-- Form Skills -->
+        <record id="view_portofolio_skills_form" model="ir.ui.view">
+            <field name="name">portofolio.skills.form</field>
+            <field name="model">portofolio.skills</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
 
-        <field name="arch" type="xml">
-            <form string="Skills Form">
-                <sheet>
-                    <group>
+            <field name="arch" type="xml">
+                <form string="Skills Form">
+                    <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="score"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="score"/>
+                            </group>
                         </group>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-    </record>
+                    </sheet>
+                </form>
+            </field>
+        </record>
 
-    <!-- Tree Works -->
-    <record id="view_portofolio_works_tree" model="ir.ui.view">
-        <field name="name">portofolio.works.tree</field>
-        <field name="model">portofolio.works</field>
-        <field name="type">tree</field>
-        <field name="priority" eval="8"/>
+        <!-- Tree Works -->
+        <record id="view_portofolio_works_tree" model="ir.ui.view">
+            <field name="name">portofolio.works.tree</field>
+            <field name="model">portofolio.works</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
 
-        <field name="arch" type="xml">
-            <tree string="Works">
-                <field name="image" widget="image" class="oe_avatar"/>
-                <field name="name"/>
-                <field name="link" />
-                <field name="description" />
-            </tree>
-        </field>
-    </record>
+            <field name="arch" type="xml">
+                <tree string="Works">
+                    <field name="image" widget="image" class="oe_avatar"/>
+                    <field name="name"/>
+                    <field name="link"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
 
-    <!-- Form Works -->
-    <record id="view_portofolio_works_form" model="ir.ui.view">
-        <field name="name">portofolio.works.form</field>
-        <field name="model">portofolio.works</field>
-        <field name="type">form</field>
-        <field name="priority" eval="8"/>
+        <!-- Form Works -->
+        <record id="view_portofolio_works_form" model="ir.ui.view">
+            <field name="name">portofolio.works.form</field>
+            <field name="model">portofolio.works</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
 
-        <field name="arch" type="xml">
-            <form string="Works Form">
-                <sheet>
-                    <group>
+            <field name="arch" type="xml">
+                <form string="Works Form">
+                    <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="link"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="link"/>
+                            </group>
+                            <group>
+                                <field name="technology_ids" widget="many2many_tags"/>
+                                <field name="image" widget="image" class="oe_avatar"/>
+                            </group>
                         </group>
                         <group>
-                            <field name="technology_ids" widget="many2many_tags"/>
-                            <field name="image" widget="image" class="oe_avatar"/>
+                            <field name="description"/>
                         </group>
-                    </group>
-                    <group>
-                        <field name="description"/>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-    </record>
+                    </sheet>
+                </form>
+            </field>
+        </record>
 
-    <!-- Tree Experience -->
-    <record id="view_portofolio_experience_tree" model="ir.ui.view">
-        <field name="name">portofolio.experience.tree</field>
-        <field name="model">portofolio.experience</field>
-        <field name="type">tree</field>
-        <field name="priority" eval="8"/>
+        <!-- Tree Experience -->
+        <record id="view_portofolio_experience_tree" model="ir.ui.view">
+            <field name="name">portofolio.experience.tree</field>
+            <field name="model">portofolio.experience</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
 
-        <field name="arch" type="xml">
-            <tree string="Experience">
-                <field name="name"/>
-                <field name="start" />
-                <field name="end" />
-                <field name="description" />
-            </tree>
-        </field>
-    </record>
+            <field name="arch" type="xml">
+                <tree string="Experience">
+                    <field name="name"/>
+                    <field name="start"/>
+                    <field name="end"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
 
-    <!-- Form Experience -->
-    <record id="view_portofolio_experience_form" model="ir.ui.view">
-        <field name="name">portofolio.experience.form</field>
-        <field name="model">portofolio.experience</field>
-        <field name="type">form</field>
-        <field name="priority" eval="8"/>
+        <!-- Form Experience -->
+        <record id="view_portofolio_experience_form" model="ir.ui.view">
+            <field name="name">portofolio.experience.form</field>
+            <field name="model">portofolio.experience</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
 
-        <field name="arch" type="xml">
-            <form string="Experience Form">
-                <sheet>
-                    <group>
+            <field name="arch" type="xml">
+                <form string="Experience Form">
+                    <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="start"/>
-                            <field name="end"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="start"/>
+                                <field name="end"/>
+                            </group>
                         </group>
-                    </group>
-                    <group>
-                        <field name="description"/>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-    </record>
-
-    <!-- Tree Social Media -->
-    <record id="view_portofolio_social_tree" model="ir.ui.view">
-        <field name="name">portofolio.social.tree</field>
-        <field name="model">portofolio.social</field>
-        <field name="type">tree</field>
-        <field name="priority" eval="8"/>
-
-        <field name="arch" type="xml">
-            <tree string="Social Media">
-                <field name="name"/>
-                <field name="link" />
-            </tree>
-        </field>
-    </record>
-
-    <!-- Form Social Media -->
-    <record id="view_portofolio_social_form" model="ir.ui.view">
-        <field name="name">portofolio.social.form</field>
-        <field name="model">portofolio.social</field>
-        <field name="type">form</field>
-        <field name="priority" eval="8"/>
-
-        <field name="arch" type="xml">
-            <form string="Social Form">
-                <sheet>
-                    <group>
                         <group>
-                            <field name="name"/>
-                            <field name="link" />
+                            <field name="description"/>
                         </group>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-    </record>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree Social Media -->
+        <record id="view_portofolio_social_tree" model="ir.ui.view">
+            <field name="name">portofolio.social.tree</field>
+            <field name="model">portofolio.social</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+
+            <field name="arch" type="xml">
+                <tree string="Social Media">
+                    <field name="name"/>
+                    <field name="link"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form Social Media -->
+        <record id="view_portofolio_social_form" model="ir.ui.view">
+            <field name="name">portofolio.social.form</field>
+            <field name="model">portofolio.social</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+
+            <field name="arch" type="xml">
+                <form string="Social Form">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="link"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
 
 
-    <!-- Inherit Skills ke Employe -->
-    <record model="ir.ui.view" id="view_name_skills_form">
-        <field name="name">view_name_skills_form.form</field>
-        <field name="model">hr.employee</field>
-        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <!-- Inherit Skills ke Employe -->
+        <record model="ir.ui.view" id="view_name_skills_form">
+            <field name="name">view_name_skills_form.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
 
-        <field name="arch" type="xml">
-            <notebook position="inside">
-                <page string="Skills">
-                    <field name="skills_ids"/>
-                </page>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Skills">
+                        <field name="skills_ids"/>
+                    </page>
 
-                <page string="Works">
-                    <field name="works_ids"/>
-                </page>
+                    <page string="Works">
+                        <field name="works_ids"/>
+                    </page>
 
-                <page string="Experience">
-                    <field name="experience_ids"/>
-                </page>
+                    <page string="Experience">
+                        <field name="experience_ids"/>
+                    </page>
 
-                <page string="Social Media">
-                    <field name="social_ids"/>
-                </page>
+                    <page string="Social Media">
+                        <field name="social_ids"/>
+                    </page>
 
-                <page string="Profile">
-                    <field name="profile" widget="html"/>
-                </page>
-            </notebook>
-        </field>
-    </record>
-    
-  </data>
+                    <page string="Profile">
+                        <field name="profile" widget="html"/>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+    </data>
 </odoo>

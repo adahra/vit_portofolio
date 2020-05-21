@@ -1,9 +1,9 @@
 <odoo>
-	<data noupdate="0">
+    <data noupdate="0">
 
-		<record id="group_manager" model="res.groups">
-			<field name="name">Portofolio / Manager</field>
-		</record>
+        <record id="group_manager" model="res.groups">
+            <field name="name">Portofolio / Manager</field>
+        </record>
 
-	</data>
+    </data>
 </odoo>
